@@ -1,0 +1,3 @@
+"scripts": {
+    "test:postman": "newman run ozon-cart-collection.json -r htmlextra --reporter-htmlextra-export ./newman-report.html"
+}
